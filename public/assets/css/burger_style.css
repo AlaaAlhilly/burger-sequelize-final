@@ -1,0 +1,22 @@
+.left-list{
+    width: 40% ;
+    float: left;
+}
+.right-list{
+    width: 40% ;
+    float: right;
+}
+.clear-both{
+    clear: both;
+}
+#burger{
+    width:50%;
+    margin: auto;
+}
+.add-burger{
+    margin-top: 10px;
+    background-color:#eee;
+}
+.devour_it{
+    float: right;
+}
