@@ -20,6 +20,9 @@ $(function(){
     });
     $('.create-form').on('submit',function(e){
         e.preventDefault();
+        if($('#burger').val().trim() === '') {
+            alert('please enter burger name');
+        }
         let newBurger = {
             burger_name: $('#burger').val().trim(),
 

@@ -22,6 +22,9 @@ router.post('/api/burger/add', (req,res) =>{
         eaten_by: ''
     }).then((result) =>{
         res.json({id:result.insertId});
+    }).catch(() => {
+        alert('burger is eaten');
+        process.exit(0);
     });
 });
 router.put('/api/burger/update/:id', (req,res) =>{
